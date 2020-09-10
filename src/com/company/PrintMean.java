@@ -5,11 +5,19 @@ public class PrintMean {
     public static void main(String[] args) {
         // Heltalsdivision (skriver ut int istället för double)
         //Test
+<<<<<<< HEAD
         System.out.println("Mean of 3, 1, 3, 3: " + meanCalc(3, 1, 3, 3));
+=======
+        System.out.println("Mean of 5, 1, 3, 3: " + meanCalc(5, 1, 3, 3));
+>>>>>>> test1
         System.out.println("Mean of 1, 2, 3, 4: " + meanCalc(1, 2, 3, 4));
         System.out.println("Mean of 1, -2, 3, -4: " + meanCalc(1, -2, 3, -4));
         System.out.println("Mean of -1, -11, 24, 2: " + meanCalc(-1, -11, 24, 2));
+<<<<<<< HEAD
         System.out.println("Mean of 5, 6, 123, 68: " + meanCalc(5, 6, 123, 68));
+=======
+        System.out.println("Mean of -23, -12, 45, 45: " + meanCalc(-23, -12, 45, 45));
+>>>>>>> test
     }
 
     public static String meanCalc(int a, int b, int c, int d) {
