@@ -18,7 +18,7 @@ public class PrintMean {
 
         String mean = String.valueOf((a + b + c + d) / 4.0);
         String meanString = mean;
-        System.out.println("good job");
+        System.out.println("Good Job!");
         
         return meanString;
     }
