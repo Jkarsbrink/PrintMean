@@ -14,8 +14,8 @@ public class PrintMean {
     public static String meanCalc(int a, int b, int c, int d) {
         // Gör en sträng av "mean"
 
-        double mean = (a + b + c + d) / 4.0;
-        String meanString = "" + mean;
+        String mean = String.valueOf((a + b + c + d) / 4.0);
+        String meanString = mean;
 
         return meanString;
     }
