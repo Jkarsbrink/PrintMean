@@ -10,7 +10,7 @@ public class PrintMean {
         System.out.println("Mean of 5, 6, 123, 68: " + meanCalc(5, 6, 123, 68));
         System.out.println("Mean of -23, -12, 45, 45: " + meanCalc(-23, -12, 45, 45));
     }
-
+    
     public static String meanCalc(int a, int b, int c, int d) {
 
         String mean = String.valueOf((a + b + c + d) / 4.0);
