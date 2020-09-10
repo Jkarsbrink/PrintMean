@@ -7,7 +7,6 @@ public class PrintMean {
         //Test
         System.out.println("Mean of 3, 1, 3, 3: " + meanCalc(3, 1, 3, 3));
         System.out.println("Mean of 5, 1, 3, 3: " + meanCalc(5, 1, 3, 3));
-        System.out.println("Mean of 1, 2, 3, 4: " + meanCalc(1, 2, 3, 4));
         System.out.println("Mean of 1, -2, 3, -4: " + meanCalc(1, -2, 3, -4));
         System.out.println("Mean of -1, -11, 24, 2: " + meanCalc(-1, -11, 24, 2));
         System.out.println("Mean of 5, 6, 123, 68: " + meanCalc(5, 6, 123, 68));
